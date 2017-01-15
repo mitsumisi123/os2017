@@ -1,0 +1,74 @@
+Name Pham Duy Minh
+ID USTHBI6-100
+class ICT gen 6
+
+1. echo hello world
+   hello world
+
+2.passwd
+ (current) UNIX password:
+
+3.date
+Chủ nhật, 15 Tháng một năm 2017 11:10:50 ICT
+
+4.hostname
+minh-GL552JX
+
+5.arch
+x86_64
+
+6.uname -a
+Linux minh-GL552JX 4.4.0-59-generic #80-Ubuntu SMP Fri Jan 6 17:47:47 
+UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+7.dmesg
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.0-59-generic (buildd@lgw01-11) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017 (Ubuntu 4.4.0-59.80-generic 4.4.35)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-59-generic root=UUID=e16a28f8-c29d-4700-8e6e-7a858a0fc5fb ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+
+8.uptime
+11:58:30 up  1:07,  1 user,  load average: 0,25, 0,29, 0,35
+
+9.who am i
+(nothing)
+
+10.whoami
+minh
+
+11.who
+minh     tty7         2017-01-15 16:47 (:0)
+
+12.id
+uid=1000(minh) gid=1000(minh) groups=1000(minh),4(adm),24(cdrom),
+27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+13.last
+minh     tty7         :0               Sun Jan 15 16:47    gone - no logout
+reboot   system boot  4.4.0-59-generic Sun Jan 15 16:46   still running
+minh     tty7         :0               Fri Jan 13 17:59 - down   (00:00)
+reboot   system boot  4.4.0-59-generic Fri Jan 13 17:59 - 18:00  (00:00)
+minh     tty7         :0               Fri Jan 13 14:48 - crash  (03:10)
+reboot   system boot  4.4.0-31-generic Fri Jan 13 14:48 - 18:00  (03:11)
+guest-wm tty8         :1               Fri Jan 13 14:38 - down   (00:09)
+minh     tty7         :0               Fri Jan 13 14:31 - down   (00:16)
+reboot   system boot  4.4.0-31-generic Fri Jan 13 14:31 - 14:48  (00:16)
+minh     tty7         :0               Fri Jan 13 21:20 - down   (-6:-49)
+reboot   system boot  4.4.0-31-generic Fri Jan 13 21:20 - 14:31  (-6:-49)
+
+wtmp begins Fri Jan 13 21:20:37 2017
+
+14.finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+
+15.w
+ 12:01:50 up  1:10,  1 user,  load average: 0,10, 0,21, 0,31
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+minh     tty7     :0               16:47     ?     2:11   0.12s /sbin/upstart -
