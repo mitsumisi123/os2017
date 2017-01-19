@@ -1,7 +1,6 @@
 1.~$ ls>m
  ~$ cat m|grep list m
-
- => listnhac
+  listnhac
 
 2.~$ wc -l /etc/passwd
 42 /etc/passwd
