@@ -1,0 +1,35 @@
+1. ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 119728  5828 ?        Ss   18:33   0:01 /sbin/init spla
+root         2  0.0  0.0      0     0 ?        S    18:33   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    18:33   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   18:33   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    18:33   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    18:33   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    18:33   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    18:33   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    18:33   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    18:33   0:00 [migration/1]
+2.gnome-calculator
+  ps -A |grep calculat
+  =>3589 pts/6    00:00:00 gnome-calculato
+
+3.
+Name:	gnome-calculato
+State:	S (sleeping)
+Tgid:	3589
+Ngid:	0
+Pid:	3589
+PPid:	3455
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+
+4.kill -19 3589
+[1]+  Stopped                 gnome-calculator
+
+4.kill -18 3589
+(resume process in specific task)
+5.kill -9 3589
+Killed
