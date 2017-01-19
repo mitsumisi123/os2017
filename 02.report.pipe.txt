@@ -1,0 +1,26 @@
+1.ls>m
+  cat m|grep list m
+
+ => listnhac
+
+2.wc /etc/passwd
+42   73 2360 /etc/passwd
+
+3.free
+             total        used        free      shared  buff/cache   available
+Mem:        5997532     1816396     2610436      252276     1570700     3624412
+
+4.cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4200H CPU @ 2.80GHz
+stepping	: 3
+microcode	: 0x1c
+cpu MHz		: 2505.562
+cache size	: 3072 KB
+physical id	: 0
+
+5 cd Pictures | find -name *.jpg
+./bonghoa.jpg
