@@ -1,0 +1,16 @@
+~$  cat /proc/sched_debug | grep switches ;cat /proc/sched_debug | grep systemd 
+  .nr_switches                   : 20679853
+            task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 19879359
+            task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 17683216
+            task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 17700644
+            task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+         systemd     1       221.244638      1857   120        37.738490      1133.080480  13899509.266139 0 0 /autogroup-2
+         systemd  1133        14.576927        42   120         3.859598        19.138575  10594240.906051 0 0 /autogroup-79
+
+~$ cat /proc/1/sched | grep switches 
+nr_switches                                  :                 1861
+nr_voluntary_switches                        :                 1535
+nr_involuntary_switches                      :                  326
