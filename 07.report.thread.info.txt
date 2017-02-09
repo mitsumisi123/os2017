@@ -1,0 +1,10 @@
+~$ ps -A|grep fire
+ 1921 ?        00:10:53 firefox
+
+~$ ls /proc/1921/task | wc -w
+52
+
+~$ ps -o nlwp 1921
+NLWP
+  52
+
